@@ -1,12 +1,12 @@
 # NumPy_ML
-NumPy_ML was a personal education & exploration project that offers a grammar of Deep-Learning tools.
+NumPy_ML was a personal education & exploration project that implements a grammar of Deep-Learning tools.
 <body>
 <ul>
 <li>Built From Scratch 🐥🥚</li>
 <li>100% NumPy 💯🐍</li>
 <li>Extensible architecture with Auto-Grad 🗻🗺️</li>
-<li> Easy Modular Deployment 🥥🌴</li>
-<li> Expressive, type-hinted, human code 🧼🛀</li>
+<li>Easy Modular 🥥🌴</li>
+<li>Expressive, type-hinted, human code 🧼🛀</li>
 </ul>
 
 <p>
@@ -25,7 +25,7 @@ Algorithms such as:
 <li> Confusion Matrix </li>
 </ul>
 
-Network operations are float32 based. The design is capable of quick prototyping & deployment of small networks with ~max 6-8 layers unless you're good at keeping gradients alive (may require non-sequential architecture). 🐙
+Network operations are float32 based. The design is capable of quick prototyping & deployment of small networks with ~max 12-16 layers unless you're good at keeping gradients alive (may require non-sequential architecture). 🐙
 
 The full project was originally intended for non-linear Deep Reinforcement-Learning workflows hence its a bit over-engineered for its current capabilities but the essential roadmap is all laidout if I ever wish to revisit this old project. There's of course a lot more features I wish to have added. Please see pyproject.toml for build requirements. Please note that Torchvision is a dependency of this project only for convenience and reproducibility of fetching the MNIST dataset for the MNIST classification demo. 
 
